@@ -65,7 +65,7 @@ Overloaded methods aren't a problem either. One just needs to be explicit with a
 
 The matching can be made even more specific by providing argument values:
 ```java
-   String fakeValue = "hi bloke!";
+  String fakeValue = "hi bloke!";
   Bar mock = Mock.mock(Bar.class);
   Mock.when(mock, "bar(java.lang.String)", "bloke").thenReturn(fakeValue);
   assertEquals(fakeValue, mock.bar("bloke"));
