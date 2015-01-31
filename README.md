@@ -1,5 +1,5 @@
 # swindler
-A minimalistic Java mocking library based on reflection API and javassist.
+A minimalistic Java mocking library based on reflection API and [javassist](http://www.javassist.org).
 
 ## Features
 
